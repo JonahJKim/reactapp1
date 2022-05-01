@@ -10,7 +10,7 @@ function Todo(props) {
         setModalisOpen(true);
     }
 
-    function closeModalHandler() {
+    function closeModalHandler(props) {
         setModalisOpen(false);
     }
 
